@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>INTROVERT.APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="all">
+    <meta name="copyright" content="&copy;2020 INTROVERT.APP">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- this line of code for js check -->
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- plugins and scripts at the bottom of this page -->
+</head>
+
+<body>
+    <div class="all">
+        <div class="centering-content flex-column">
+            <div class="main-header">
+                <div class="main-header__row">
+                    <h1 class="logo">INTROVERT.APP</h1>
+                    <div class="hamburger hamburger--squeeze" id="navTrigger">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-nav-lang">
+                    <ul class="lang">
+                        <li>RU</li>
+                        <li><a href="#" title="English">EN</a></li>
+                    </ul>
+                </div>
+            </div><!-- end main-header -->
+            <div class="main-content">
+                <section class="main-content__row main-content__row--hello">
+                    <div class="main-content__column">
+                        <div class="main-content__column-header">
+                            <h1>Найдем работника даже если он не ищет работу</h1>
+                        </div>
+                        <div class="main-content__column-content">
+                            <a data-fancybox data-type data-src="#subscribePopup" href="javascript:;" class="button" title="Подписаться">Подписаться</a>
+                            <div class="button-info">546 подписчиков в листе ожидания</div>
+                        </div>
+                    </div><!-- end main-content__column -->
+                    <div class="main-content__column">
+                        <div class="product-demo">
+                            <div class="product-demo__decor" id="productDemoDecor">
+                                <div class="product-demo__decor-item product-demo__decor-item--1"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--2"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--3"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--4"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--5"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--6"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--7"></div>
+                                <div class="product-demo__decor-item product-demo__decor-item--8"></div>
+                            </div>
+                            <div class="product-demo__swiper-wrap">
+                                <div class="swiper-container" id="productDemoSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div data-background="upload/demo.jpg" class="swiper-slide swiper-lazy">
+                                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            <a data-fancybox="productDemoSwiper" href="upload/demo.jpg"></a>
+                                        </div>
+                                        <div data-background="upload/demo1.jpg" class="swiper-slide swiper-lazy">
+                                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            <a data-fancybox="productDemoSwiper" href="upload/demo1.jpg"></a>
+                                        </div>
+                                        <div data-background="upload/demo2.jpg" class="swiper-slide swiper-lazy">
+                                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            <a data-fancybox="productDemoSwiper" href="upload/demo2.jpg"></a>
+                                        </div>
+                                        <div data-background="upload/demo3.jpg" class="swiper-slide swiper-lazy">
+                                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            <a data-fancybox="productDemoSwiper" href="upload/demo3.jpg"></a>
+                                        </div>
+                                        <div data-background="upload/demo4.jpg" class="swiper-slide swiper-lazy">
+                                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            <a data-fancybox="productDemoSwiper" href="upload/demo4.jpg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="fancybox-trigger" id="productDemoFancyTrigger" title="Увеличить фото"></a>
+                            </div>
+                            <div class="swiper-buttons">
+                                <div class="swiper-button-prev" id="productDemoSwiperPrev"></div>
+                                <div class="swiper-button-next" id="productDemoSwiperNext"></div>
+                            </div>
+                        </div><!-- end product-demo -->
+                    </div><!-- end main-content__column -->
+                </section><!-- end main-content__row -->
+                <div class="main-content__row main-content__row--info">
+                    <section class="main-content__column">
+                        <div class="main-content__column-header">
+                            <h3>До старта осталось</h3>
+                        </div>
+                        <div class="main-content__column-content">
+                            <div class="countdown" id="countdown"></div>
+                        </div>
+                    </section>
+                    <section class="main-content__column">
+                        <div class="main-content__column-header">
+                            <h4>Скоро на популярных платформах</h4>
+                        </div>
+                        <div class="main-content__column-content">
+                            <div class="platforms-info">
+                                <div class="platforms-info__item"><img src="img/app-store.png" alt="app-store"></div>
+                                <div class="platforms-info__item"><img src="img/g-play.png" alt="g-play"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div><!-- end main-content -->
+            <div class="main-nav-area">
+                <nav>
+                    <ul class="main-menu" id="#mainMenu">
+                        <li><a data-fancybox data-type data-src="#privacySection" href="javascript:;" title="Privacy">Privacy</a></li>
+                        <li><a data-fancybox data-type data-src="#offerSection" href="javascript:;" title="Offer">Offer</a></li>
+                        <li><a data-fancybox data-type data-src="#investorsSection" href="javascript:;" title="For investors">For investors</a></li>
+                        <li><a data-fancybox data-type data-src="#contactSection" href="javascript:;" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-footer">
+                <div class="main-footer__copy">INTROVERT.APP @2020</div>
+            </div>
+        </div><!-- end centering-content -->
+    </div>
+    <!--end all -->
+    <div class="popup popup--form" id="subscribePopup">
+        <form action="#" name="subscribe_form">
+            <div class="form-field">
+                <label for="subscribeName">Ваше имя</label>
+                <input type="text" name="subscribe_name" id="subscribeName">
+            </div>
+            <div class="form-field">
+                <label for="subscribeEmail">E-mail</label>
+                <input type="text" name="subscribe_email" id="subscribeEmail">
+            </div>
+            <button type="submit" class="button button--sm" name="subscribe_submit">Подписаться</button>
+        </form>
+    </div>
+    <!-- popup sections -->
+    <div class="popup popup--section" id="privacySection">
+        <h2>Privacy</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>headline h3</h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+        </ul>
+        <h4>Num list:</h4>
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nemo sit cupiditate sed quasi totam quis autem esse perferendis aut, eos facilis maxime eligendi veniam error quisquam impedit praesentium minus.</li>
+        </ol>
+    </div>
+
+    <div class="popup popup--section" id="offerSection">
+        <h2>Offer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="popup popup--section" id="investorsSection">
+        <h2>For investors</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="popup popup--section" id="contactSection">
+        <h2>Contact</h2>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="/js/jquery-3.1.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- __________________________________ THE END. ALL THE BEST! ______________________________ -->
+</body>
+
+</html>
